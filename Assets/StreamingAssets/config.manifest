@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2064625576
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d5dfb4a591c36b26ce4e05103854edc3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundles/Resources/Config/Equip.csv
+- Assets/AssetBundles/Resources/Config/TreasureBox.csv
+- Assets/AssetBundles/Resources/Config/DropItem.csv
+- Assets/AssetBundles/Resources/Config/UIForm.csv
+Dependencies: []

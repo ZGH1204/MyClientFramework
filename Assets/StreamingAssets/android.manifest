@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 2254650914
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: image
+      Dependencies: {}
+    Info_1:
+      Name: config
+      Dependencies: {}
+    Info_2:
+      Name: ui
+      Dependencies:
+        Dependency_0: image

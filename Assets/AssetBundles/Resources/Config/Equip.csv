@@ -1,0 +1,6 @@
+﻿Id,Info,Name,NeedGrade,BenefitType,BenefitNum
+int,string,string,int,int[],int[]
+装备id,装备信息,装备名字,购买此装备需要的积分,加成属性id,加成数量
+1,给英雄增加血量,低级加血包,20,1,100
+2,给英雄增加血量,中级加血包,40,1,200
+3,给英雄增加血量,高级加血包,80,1,400

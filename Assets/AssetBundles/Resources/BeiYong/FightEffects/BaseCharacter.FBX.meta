@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 50c6740446b2eee46bb670d1d916fbde
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armored_swordman
+    100002: //RootNode
+    100004: Bip01
+    100006: Bip01 Footsteps
+    100008: Bip01 Head
+    100010: Bip01 HeadNub
+    100012: Bip01 L Calf
+    100014: Bip01 L Clavicle
+    100016: Bip01 L Foot
+    100018: Bip01 L Forearm
+    100020: Bip01 L Hand
+    100022: Bip01 L Thigh
+    100024: Bip01 L Toe0
+    100026: Bip01 L Toe0Nub
+    100028: Bip01 L UpperArm
+    100030: Bip01 Neck
+    100032: Bip01 Pelvis
+    100034: Bip01 R Calf
+    100036: Bip01 R Clavicle
+    100038: Bip01 R Foot
+    100040: Bip01 R Forearm
+    100042: Bip01 R Hand
+    100044: Bip01 R Thigh
+    100046: Bip01 R Toe0
+    100048: Bip01 R Toe0Nub
+    100050: Bip01 R UpperArm
+    100052: Bip01 Spine
+    100054: Bip01 Spine1
+    100056: Bip01 Spine2
+    100058: Bip01 Spine3
+    100060: Box001
+    100062: Cylinder001
+    100064: back_loincloth_bone
+    100066: Bip01 L Finger0
+    100068: Bip01 L Finger01
+    100070: Bip01 L Finger02
+    100072: Bip01 L Finger0Nub
+    100074: Bip01 L Finger1
+    100076: Bip01 L Finger11
+    100078: Bip01 L Finger12
+    100080: Bip01 L Finger1Nub
+    100082: Bip01 L Finger2
+    100084: Bip01 L Finger21
+    100086: Bip01 L Finger22
+    100088: Bip01 L Finger2Nub
+    100090: Bip01 L Finger3
+    100092: Bip01 L Finger31
+    100094: Bip01 L Finger32
+    100096: Bip01 L Finger3Nub
+    100098: Bip01 L Finger4
+    100100: Bip01 L Finger41
+    100102: Bip01 L Finger42
+    100104: Bip01 L Finger4Nub
+    100106: Bip01 Ponytail1
+    100108: Bip01 Ponytail11
+    100110: Bip01 Ponytail12
+    100112: Bip01 Ponytail13
+    100114: Bip01 Ponytail14
+    100116: Bip01 Ponytail15
+    100118: Bip01 Ponytail1Nub
+    100120: Bip01 Ponytail2
+    100122: Bip01 Ponytail2Nub
+    100124: Bip01 R Finger0
+    100126: Bip01 R Finger01
+    100128: Bip01 R Finger02
+    100130: Bip01 R Finger0Nub
+    100132: Bip01 R Finger1
+    100134: Bip01 R Finger11
+    100136: Bip01 R Finger12
+    100138: Bip01 R Finger1Nub
+    100140: Bip01 R Finger2
+    100142: Bip01 R Finger21
+    100144: Bip01 R Finger22
+    100146: Bip01 R Finger2Nub
+    100148: Bip01 R Finger3
+    100150: Bip01 R Finger31
+    100152: Bip01 R Finger32
+    100154: Bip01 R Finger3Nub
+    100156: Bip01 R Finger4
+    100158: Bip01 R Finger41
+    100160: Bip01 R Finger42
+    100162: Bip01 R Finger4Nub
+    100164: front_loincloth_bone
+    100166: goblin
+    100168: Object01
+    100170: Object02
+    100172: shield
+    100174: sword
+    400000: armored_swordman
+    400002: //RootNode
+    400004: Bip01
+    400006: Bip01 Footsteps
+    400008: Bip01 Head
+    400010: Bip01 HeadNub
+    400012: Bip01 L Calf
+    400014: Bip01 L Clavicle
+    400016: Bip01 L Foot
+    400018: Bip01 L Forearm
+    400020: Bip01 L Hand
+    400022: Bip01 L Thigh
+    400024: Bip01 L Toe0
+    400026: Bip01 L Toe0Nub
+    400028: Bip01 L UpperArm
+    400030: Bip01 Neck
+    400032: Bip01 Pelvis
+    400034: Bip01 R Calf
+    400036: Bip01 R Clavicle
+    400038: Bip01 R Foot
+    400040: Bip01 R Forearm
+    400042: Bip01 R Hand
+    400044: Bip01 R Thigh
+    400046: Bip01 R Toe0
+    400048: Bip01 R Toe0Nub
+    400050: Bip01 R UpperArm
+    400052: Bip01 Spine
+    400054: Bip01 Spine1
+    400056: Bip01 Spine2
+    400058: Bip01 Spine3
+    400060: Box001
+    400062: Cylinder001
+    400064: back_loincloth_bone
+    400066: Bip01 L Finger0
+    400068: Bip01 L Finger01
+    400070: Bip01 L Finger02
+    400072: Bip01 L Finger0Nub
+    400074: Bip01 L Finger1
+    400076: Bip01 L Finger11
+    400078: Bip01 L Finger12
+    400080: Bip01 L Finger1Nub
+    400082: Bip01 L Finger2
+    400084: Bip01 L Finger21
+    400086: Bip01 L Finger22
+    400088: Bip01 L Finger2Nub
+    400090: Bip01 L Finger3
+    400092: Bip01 L Finger31
+    400094: Bip01 L Finger32
+    400096: Bip01 L Finger3Nub
+    400098: Bip01 L Finger4
+    400100: Bip01 L Finger41
+    400102: Bip01 L Finger42
+    400104: Bip01 L Finger4Nub
+    400106: Bip01 Ponytail1
+    400108: Bip01 Ponytail11
+    400110: Bip01 Ponytail12
+    400112: Bip01 Ponytail13
+    400114: Bip01 Ponytail14
+    400116: Bip01 Ponytail15
+    400118: Bip01 Ponytail1Nub
+    400120: Bip01 Ponytail2
+    400122: Bip01 Ponytail2Nub
+    400124: Bip01 R Finger0
+    400126: Bip01 R Finger01
+    400128: Bip01 R Finger02
+    400130: Bip01 R Finger0Nub
+    400132: Bip01 R Finger1
+    400134: Bip01 R Finger11
+    400136: Bip01 R Finger12
+    400138: Bip01 R Finger1Nub
+    400140: Bip01 R Finger2
+    400142: Bip01 R Finger21
+    400144: Bip01 R Finger22
+    400146: Bip01 R Finger2Nub
+    400148: Bip01 R Finger3
+    400150: Bip01 R Finger31
+    400152: Bip01 R Finger32
+    400154: Bip01 R Finger3Nub
+    400156: Bip01 R Finger4
+    400158: Bip01 R Finger41
+    400160: Bip01 R Finger42
+    400162: Bip01 R Finger4Nub
+    400164: front_loincloth_bone
+    400166: goblin
+    400168: Object01
+    400170: Object02
+    400172: shield
+    400174: sword
+    2300000: Box001
+    2300002: Cylinder001
+    2300004: Object01
+    2300006: Object02
+    2300008: shield
+    2300010: sword
+    3300000: Box001
+    3300002: Cylinder001
+    3300004: Object01
+    3300006: Object02
+    3300008: shield
+    3300010: sword
+    4300000: armored_swordman
+    4300002: Cylinder001
+    4300004: Box001
+    4300006: goblin
+    4300008: Object01
+    4300010: Object02
+    4300012: shield
+    4300014: sword
+    7400000: horizontalAttack
+    7400002: idle
+    7400004: stab
+    7400006: verticalAttack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: armored_swordman
+    13700002: goblin
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: horizontalAttack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stab
+      takeName: Take 001
+      firstFrame: 47
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: verticalAttack
+      takeName: Take 001
+      firstFrame: 72
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.045
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

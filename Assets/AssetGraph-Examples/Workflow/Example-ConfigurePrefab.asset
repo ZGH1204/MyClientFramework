@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4882d68a9346b3b5f8ecf1e38a534, type: 3}
+  m_Name: Example-ConfigurePrefab
+  m_EditorClassIdentifier: 
+  m_allNodes:
+  - m_name: Load from Prefab
+    m_id: 900dbb3d-96f7-4b39-a74a-5b15def642f6
+    m_x: 48
+    m_y: 156
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Loader, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2xvYWRQYXRoIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJBc3NldEdyYXBoLUV4YW1wbGVzL1VuaXR5Q2hhbi9QcmVmYWIifV19LCJtX2xvYWRQYXRoR3VpZCI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoiNjkxMmM1NGRkNmFkYTRjZDc4ZDhjZjUzYzUxZjZiYWYifV19LCJtX3Jlc3BvbmRUb0Fzc2V0Q2hhbmdlIjpmYWxzZX0=
+    m_inputPoints: []
+    m_outputPoints:
+    - id: f1885cd2-09da-4479-b23c-3f1cc2204dbd
+      label: +
+      parentId: 900dbb3d-96f7-4b39-a74a-5b15def642f6
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 142
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Attach SpringBone
+    m_id: 07196516-77b2-4bf9-8497-b51b52f11872
+    m_x: 264
+    m_y: 156
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Modifier, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2luc3RhbmNlIjp7Im1fY2xhc3NOYW1lIjoiQXR0YWNoQ29tcG9uZW50LCBBc3NlbWJseS1DU2hhcnAtRWRpdG9yLCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIm1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJCNjR8ZXlKdFgyTnZiWEJ2Ym1WdWRDSTZleUp0WDJGMGRHRmphR1ZrUTI5dGNHOXVaVzUwY3lJNlczc2liVjkwZVhCbFNXNW1ieUk2SWxWdWFYUjVRMmhoYmk1VGNISnBibWRDYjI1bExDQkJjM05sYldKc2VTMURVMmhoY25Bc0lGWmxjbk5wYjI0OU1DNHdMakF1TUN3Z1EzVnNkSFZ5WlQxdVpYVjBjbUZzTENCUWRXSnNhV05MWlhsVWIydGxiajF1ZFd4c0lpd2liVjlqYjIxd2IyNWxiblJFWVhSaElqb2lRalkwZkdWNVNrNWlNalYyVVcxV2IxbFlXbkJpTTFaNVNXcHdOMGx0TVdaU1Z6Vm9XVzE0YkZwRFNUWmtTRW94V2xOM2FXSldPVVphUjJ3d1lqTktTV0ZYVW14U2JYaG9Xak5OYVU5cVFYTkpiVEZtVkcxR2RGcFRTVFpKYVVselNXMHhabEpYVW5Ca1J6bDVVVEo0YUdNelRrcGFSMVoxWkVkc2JXRlhWbmxKYW05cFNXbDNhVmt5YUhCaVIxRnBUMjV6YVdGWE5YcGtSMFoxV1RKV1NsSkRTVFpOU0RCelNXMUtkbUp0VmtKbFIyeDZTV3B3TjBsdVoybFBhVEI0VEdwQmMwbHVhMmxQYWtGMVRVTjNhV1ZwU1RaTlF6UjNabE4zYVdOdFJtdGhXRlo2U1dwdmQweHFRVEZOUkVGM1RVUkJkMDFFWXpCT1ZFRXhUMFJCTWt4RFNuQmpNVlo2V2xWV2FGa3lhRU5pTWpWc1VtMDVlVmt5VmxSYVdGSXdZVmMxYm1ONVNUWmtTRW94V2xOM2FXTXpVbkJhYlZwMVdsaE9lbEp0T1hsWk1sVnBUMnBCZFUxRVFUVlBWR3MxVDFSck5VNTZZekpPUkdkNVRsUm5lVXhEU210amJVWnVVbTA1ZVZreVZXbFBha0YxVGtSQmQwMUVRWGROUkVFeFQxUlpkMDVFV1RCT1UzZHBZek5DZVdGWE5XNVNiVGw1V1RKVmFVOXVjMmxsUTBrMlRVTTBkMHhEU2pWSmFtOTBUVU0wZDAxRVFYZFBWR3MxVDFSck5VOVVZekJPZWswelQwUmpNVTFwZDJsbGFVazJUVU0wZDJaVGQybFpNamx6WWtkc2ExcFlTbnBKYW5CaVdGTjNhVnBIVm1sa1YyTnBUMjVTZVdSWFZYTkpibEp2WTIxV2VtRkhPWE5hUTBrMlRVTTBkMDFFYXpWUFZHczFUMVJyTTA1NldUQlBSRWt4VDBSS09XWlJQVDBpZlYwc0ltMWZhVzV6ZEdGdVkyVkVZWFJoSWpvaVFqWTBmR1Y1U2toWlZ6RnNWREpLY1ZwWFRqQkphbkEzU1c1T2JHTnRiR2hpUjJ3MldsZFNWMXBZU25waFZ6bDFTV3B2YVU1VFNYTkpiVEZtVkVkR05WcFlTV2xQYWtGelNXMHhabFJ0Um5SYVUwazJTV3RHTUdSSFJtcGhSMngxV25sQ1JHSXlNWGRpTWpWc1ltNVJhVXhEU25SWU1WSm9XakZPTUdOdGJIVmFlVWsyU1d4V2RXUkhSbTVhTWxaclNXbDNhV0pXT1VwWk1qbDFTV3B3TjBsdGJIVmpNMUpvWW0xT2JGTlZVV2xQYWtJNVRFTktkRmd3Tldoa2F6RnNZekpvVFZsWWJHeGphVWsyVFVOM2FXSldPVlJrUjBZd1lWZE9SbHBIYkRCaU0wcEhZa2RHYm1ONVNUWk5RM2RwWWxZNVNtTXdSbXBrUjJ3eVdsTkpObVJJU2pGYVdERTVJbjBzSW0xZllYUjBZV05vVUc5c2FXTjVJam95TENKdFgyNWhiV1ZHYjNKdFlYUWlPaUpLWDF0TVVrTmRYeTRxSW4wPSJ9XX0sIm1fbW9kaWZpZXJUeXBlIjoiVW5pdHlFbmdpbmUuR2FtZU9iamVjdCwgVW5pdHlFbmdpbmUsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIn0=
+    m_inputPoints:
+    - id: fc6414ae-fcdc-4bde-af63-273e6488875c
+      label: '-'
+      parentId: 07196516-77b2-4bf9-8497-b51b52f11872
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: f8bd03c3-2f6d-4058-a50a-6dd562e8c7c1
+      label: +
+      parentId: 07196516-77b2-4bf9-8497-b51b52f11872
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 149
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Attach SpringManager
+    m_id: 29b4dfd8-4ad6-4cf2-b35a-d4f5e19dd4b2
+    m_x: 492
+    m_y: 156
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Modifier, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2luc3RhbmNlIjp7Im1fY2xhc3NOYW1lIjoiQXR0YWNoQ29tcG9uZW50LCBBc3NlbWJseS1DU2hhcnAtRWRpdG9yLCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIm1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJCNjR8ZXlKdFgyTnZiWEJ2Ym1WdWRDSTZleUp0WDJGMGRHRmphR1ZrUTI5dGNHOXVaVzUwY3lJNlczc2liVjkwZVhCbFNXNW1ieUk2SWxWdWFYUjVRMmhoYmk1VGNISnBibWROWVc1aFoyVnlMQ0JCYzNObGJXSnNlUzFEVTJoaGNuQXNJRlpsY25OcGIyNDlNQzR3TGpBdU1Dd2dRM1ZzZEhWeVpUMXVaWFYwY21Gc0xDQlFkV0pzYVdOTFpYbFViMnRsYmoxdWRXeHNJaXdpYlY5amIyMXdiMjVsYm5SRVlYUmhJam9pUWpZMGZHVjVTazVpTWpWMlVXMVdiMWxZV25CaU0xWjVTV3B3TjBsdE1XWlNWelZvV1cxNGJGcERTVFprU0VveFdsTjNhV0pXT1VaYVIyd3dZak5LU1dGWFVteFNiWGhvV2pOTmFVOXFRWE5KYlRGbVZHMUdkRnBUU1RaSmFVbHpTVzB4WmxKWFVuQmtSemw1VVRKNGFHTXpUa3BhUjFaMVpFZHNiV0ZYVm5sSmFtOXBTV2wzYVZwSWJIVlpWekZ3V1RGS2FHUkhiSFpKYW05NFRHcEJjMGx1VGpCaFYxcHRZbTFXZW1Nd1duWmpiVTVzU1dwdmQweHFRWGRQVkdzMVQxUnJOVTlVWXpOT2FsRTBUV3BWTkUxcGQybGpNMUp3V20xYWRWcFlUbnBSTTFaNVpHMVZhVTl1YzJsak1sWjVZVmRHYzJGWWNHeGFSbHBzWTI1T2NHSXlOR2xQYVVsNVNXbDNhV0pXT1VSa1dFb3lXbE5KTmxjemMybGpNbFo1WVZkR2MyRlljR3hhUmxwc1kyNU9jR0l5TkdsUGFVbDVTV2wzYVdSSGJIUmFVMGsyVFVNMGQweERTakpaVjNneFdsTkpOazFUTkhkTVEwcHdZbXhPYzJJelFteEphbTkzVEdwQmMwbHRPVEZrUms1ellqTkNiRWxxYjNkTWFrRnpTVzVTYUdKdFpHeGlibEpPWWpKU2JFbHFiM2RtVTNnM1NXNU9iR050YkdoaVIydzJXbGRTVjFwWVNucGhWemwxU1dwdmFVMXBTWE5KYmxKd1lsZFZhVTlxUlhWTlEzZHBaRzFHYzJSWFZXbFBha1YxVFVOM2FXRlhOVlJpUnpsM1dsTkpOazFETkhkTVEwcDJaRmhTVkdKSE9YZGFVMGsyVFVNMGQweERTakJaVnpWdVdsYzFNRlJYT1d0YVUwazJUVWd4WkV4RFNuUllNVUo1V2xWc2RWcHRiSFZoV0ZJMVNXcHZlVXhEU25SWU1VSjJZek5TU21KdFduQmliV3d3WlZOSk5rMXBkMmxpVmpsVFlqTlNhR1JIYkhaaWF6bDVXa2RXZVVscWIzZG1VM2RwV2toS2FGb3dXblpqYlU1c1NXcHZkMHhxVVhkTlJFRjNUVVJCZDA1VWF6Sk5SRkV5VGtSVmMwbHRVbmxaVjJSRVpGaEtNbHBUU1RabGVVcDZXbGhLY0ZsWGVIQmxiVlpyVm0xV2VXTXliSFppYVVrMlNXcEphVXhEU25SWU1FNHhZMjVhYkVscWNHSmxlVXA2V2xoS2NGbFhlSEJsYlZaclZtMVdlV015YkhaaWFVazJTV3BKYVV4RFNqQmhWekZzU1dwdmQweHFRWE5KYmxwb1lraFdiRWxxYjNoTWFrRnpTVzFzZFZVeWVIWmpSMVZwVDJwQmRVMURkMmxpTTFZd1ZUSjRkbU5IVldsUGFrRjFUVU4zYVdSSFJuVmFNbFoxWkVVeGRscEhWV2xQYWtJNVRFaHphV015Vm5saFYwWnpZVmh3YkZwR1dteGpiazV3WWpJMGFVOXBTWGxKYVhkcFpFZHNkRnBUU1RaTlV6UjNURU5LTWxsWGVERmFVMGsyVFZNMGQweERTbkJpYkU1ellqTkNiRWxxYjNkTWFrRnpTVzA1TVdSR1RuTmlNMEpzU1dwdmQweHFRWE5KYmxKb1ltMWtiR0p1VWs1aU1sSnNTV3B2ZDJaV01ITkpiVEZtVlVoS2JGTlhOVzFoVnpWd1pFaHJhVTlxU1hOSmJURm1WVWM1ZW1SRmJIVmFiV3gxWVZoU05VbHFiM2xNUTBwMFdERktkbVJIUmpCaFZ6bDFWRE5LYTFwWVNXbFBha0k1VEVOS2VtTklTbkJpYldSRFlqSTFiR041U1RaWE1URTVabEU5UFNKOVhTd2liVjlwYm5OMFlXNWpaVVJoZEdFaU9pSkNOalI4WlhsS1NGbFhNV3hVTWtweFdsZE9NRWxxY0RkSmJrNXNZMjFzYUdKSGJEWmFWMUpYV2xoS2VtRlhPWFZKYW05cFRsTkpjMGx0TVdaVVIwWTFXbGhKYVU5cVFYTkpiVEZtVkcxR2RGcFRTVFpKYTBZd1pFZEdhbUZIYkhWYWVVSkVZakl4ZDJJeU5XeGlibEZwVEVOS2RGZ3hVbWhhTVU0d1kyMXNkVnA1U1RaSmJGWjFaRWRHYmxveVZtdEphWGRwWWxZNVNsa3lPWFZKYW5BM1NXMXNkV016VW1oaWJVNXNVMVZSYVU5cVFqbE1RMHAwV0RBMWFHUnJNV3hqTW1oTldWaHNiR05wU1RaTlEzZHBZbFk1VkdSSFJqQmhWMDVHV2tkc01HSXpTa2RpUjBadVkzbEpOazFEZDJsaVZqbEtZekJHYW1SSGJESmFVMGsyWkVoS01WcFlNVGtpZlN3aWJWOWhkSFJoWTJoUWIyeHBZM2tpT2pFc0ltMWZibUZ0WlVadmNtMWhkQ0k2SWlKOSJ9XX0sIm1fbW9kaWZpZXJUeXBlIjoiVW5pdHlFbmdpbmUuR2FtZU9iamVjdCwgVW5pdHlFbmdpbmUsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIn0=
+    m_inputPoints:
+    - id: ea1a307d-e171-4c42-8e77-1cfcb6512173
+      label: '-'
+      parentId: 29b4dfd8-4ad6-4cf2-b35a-d4f5e19dd4b2
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: b4c69412-1a33-4ab4-a02b-d674e8085361
+      label: +
+      parentId: 29b4dfd8-4ad6-4cf2-b35a-d4f5e19dd4b2
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 169
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Set Child Transform
+    m_id: 9baa97c6-de06-415d-b319-f6b01f174c8e
+    m_x: 252
+    m_y: 288
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Modifier, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2luc3RhbmNlIjp7Im1fY2xhc3NOYW1lIjoiU2V0UmVmZXJlbmNlLCBBc3NlbWJseS1DU2hhcnAtRWRpdG9yLCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIm1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJCNjR8ZXlKdFgyRjBkR0ZqYUZCdmJHbGplU0k2TWl3aWJWOTBZWEpuWlhST1lXMWxVR0YwZEdWeWJpSTZJa3BmVzB4U1ExMWZMaW9pTENKdFgzUmhjbWRsZEVOdmJYQnZibVZ1ZEZSNWNHVk9ZVzFsSWpvaVZXNXBkSGxEYUdGdUxsTndjbWx1WjBKdmJtVXNJRUZ6YzJWdFlteDVMVU5UYUdGeWNDd2dWbVZ5YzJsdmJqMHdMakF1TUM0d0xDQkRkV3gwZFhKbFBXNWxkWFJ5WVd3c0lGQjFZbXhwWTB0bGVWUnZhMlZ1UFc1MWJHd2lMQ0p0WDJacFpXeGtTMmx1WkNJNk1Dd2liVjltYVdWc1pFNWhiV1VpT2lKamFHbHNaQ0lzSW0xZmJtbGphV1pwWldSR2FXVnNaRTVoYldVaU9pSkRhR2xzWkNJc0ltMWZjMlZoY21Ob1JHOXRZV2x1SWpvMExDSnRYM1I1Y0dWTllYUmphRkJ2YkdsamVTSTZNQ3dpYlY5elpXRnlZMmhwYm1kT1lXMWxVR0YwZEdWeWJpSTZJaUlzSW0xZmMyVnNaV04wWldSTllXTm9hVzVuVkhsd1pVNWhiV1Z6SWpwYlhYMD0ifV19LCJtX21vZGlmaWVyVHlwZSI6IlVuaXR5RW5naW5lLkdhbWVPYmplY3QsIFVuaXR5RW5naW5lLCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCJ9
+    m_inputPoints:
+    - id: 22426ff3-532a-4f6a-8fe8-35d604e8c87c
+      label: '-'
+      parentId: 9baa97c6-de06-415d-b319-f6b01f174c8e
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: df6020c8-e2fc-4d52-bdaf-71a930a5098d
+      label: +
+      parentId: 9baa97c6-de06-415d-b319-f6b01f174c8e
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 158
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Set Child Transform
+    m_id: 4349db27-9569-42f0-b5c5-7bb76203205c
+    m_x: 504
+    m_y: 288
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Modifier, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2luc3RhbmNlIjp7Im1fY2xhc3NOYW1lIjoiU2V0UmVmZXJlbmNlLCBBc3NlbWJseS1DU2hhcnAtRWRpdG9yLCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIm1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJCNjR8ZXlKdFgyRjBkR0ZqYUZCdmJHbGplU0k2TVN3aWJWOTBZWEpuWlhST1lXMWxVR0YwZEdWeWJpSTZJaUlzSW0xZmRHRnlaMlYwUTI5dGNHOXVaVzUwVkhsd1pVNWhiV1VpT2lKVmJtbDBlVU5vWVc0dVUzQnlhVzVuVFdGdVlXZGxjaXdnUVhOelpXMWliSGt0UTFOb1lYSndMQ0JXWlhKemFXOXVQVEF1TUM0d0xqQXNJRU4xYkhSMWNtVTlibVYxZEhKaGJDd2dVSFZpYkdsalMyVjVWRzlyWlc0OWJuVnNiQ0lzSW0xZlptbGxiR1JMYVc1a0lqb3dMQ0p0WDJacFpXeGtUbUZ0WlNJNkluTndjbWx1WjBKdmJtVnpJaXdpYlY5dWFXTnBabWxsWkVacFpXeGtUbUZ0WlNJNklsTndjbWx1WnlCQ2IyNWxjeUlzSW0xZmMyVmhjbU5vUkc5dFlXbHVJam93TENKdFgzUjVjR1ZOWVhSamFGQnZiR2xqZVNJNk1Dd2liVjl6WldGeVkyaHBibWRPWVcxbFVHRjBkR1Z5YmlJNklpSXNJbTFmYzJWc1pXTjBaV1JOWVdOb2FXNW5WSGx3WlU1aGJXVnpJanBiWFgwPSJ9XX0sIm1fbW9kaWZpZXJUeXBlIjoiVW5pdHlFbmdpbmUuR2FtZU9iamVjdCwgVW5pdHlFbmdpbmUsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIn0=
+    m_inputPoints:
+    - id: d6426f16-fc78-489c-b877-06acb98c9c5f
+      label: '-'
+      parentId: 4349db27-9569-42f0-b5c5-7bb76203205c
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: 0b7b0f4d-8d4e-4778-aeca-4be5cb3d8807
+      label: +
+      parentId: 4349db27-9569-42f0-b5c5-7bb76203205c
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 158
+        y: 32.5
+        width: 10
+        height: 23
+  m_allConnections:
+  - m_id: 2b9bfbf2-89d2-4ce7-99f0-872dffdf0196
+    m_fromNodeId: 900dbb3d-96f7-4b39-a74a-5b15def642f6
+    m_fromNodeConnectionPointId: f1885cd2-09da-4479-b23c-3f1cc2204dbd
+    m_toNodeId: 07196516-77b2-4bf9-8497-b51b52f11872
+    m_toNodeConnectionPoiontId: fc6414ae-fcdc-4bde-af63-273e6488875c
+    m_label: +
+  - m_id: 19b75e4c-0bc9-4b91-8f0b-0c806df387c9
+    m_fromNodeId: 07196516-77b2-4bf9-8497-b51b52f11872
+    m_fromNodeConnectionPointId: f8bd03c3-2f6d-4058-a50a-6dd562e8c7c1
+    m_toNodeId: 29b4dfd8-4ad6-4cf2-b35a-d4f5e19dd4b2
+    m_toNodeConnectionPoiontId: ea1a307d-e171-4c42-8e77-1cfcb6512173
+    m_label: +
+  - m_id: c2fb4a2b-44b7-44f1-bb6e-68cf157f0ef1
+    m_fromNodeId: 29b4dfd8-4ad6-4cf2-b35a-d4f5e19dd4b2
+    m_fromNodeConnectionPointId: b4c69412-1a33-4ab4-a02b-d674e8085361
+    m_toNodeId: 9baa97c6-de06-415d-b319-f6b01f174c8e
+    m_toNodeConnectionPoiontId: 22426ff3-532a-4f6a-8fe8-35d604e8c87c
+    m_label: +
+  - m_id: be3a1028-b81b-4677-b39b-8c2b2fce495f
+    m_fromNodeId: 9baa97c6-de06-415d-b319-f6b01f174c8e
+    m_fromNodeConnectionPointId: df6020c8-e2fc-4d52-bdaf-71a930a5098d
+    m_toNodeId: 4349db27-9569-42f0-b5c5-7bb76203205c
+    m_toNodeConnectionPoiontId: d6426f16-fc78-489c-b877-06acb98c9c5f
+    m_label: +
+  m_lastModified: 131583117817564230
+  m_version: 2
+  m_graphDescription: '<size=16>Graph Description: </size>
+
+
+    Configure unitychan prefab and set up hair dynamics by attaching SpringBone and
+    SpringManager scripts.
+
+
+    This graph does following operations:
+
+    1. Attach SpringBones to all GameObjects in prefab that has name such as J_R_*
+    J_L_* and have child.
+
+    2. Attach SpringManager to root GameObject.
+
+    3. Set reference to child transform to "Child" field of SpringBone.
+
+    4. Collect all SpringBone component and set them to "SpringBones" field of SpringManager.
+
+'
+  m_useAsAssetPostprocessor: 0
+  m_graphExecOrderPriority: 0

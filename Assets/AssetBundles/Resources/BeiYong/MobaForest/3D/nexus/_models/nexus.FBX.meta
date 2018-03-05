@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 0dfce5079d750d74d92fd4868a5ab80d
+labels:
+- 3dModels
+- Moba
+- StarterKit
+- Dota
+- Prototype
+- LOL
+- league
+- 3D
+- Fantasy
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: crystal_nexus_01
+    100002: crystal_nexus_02
+    100004: crystal_nexus_03
+    100006: crystal_nexus_04
+    100008: crystal_nexus_05
+    100010: crystal_nexus_06
+    100012: crystal_nexus_07
+    100014: crystal_nexus_08
+    100016: crystal_nexus_big
+    100018: //RootNode
+    400000: crystal_nexus_01
+    400002: crystal_nexus_02
+    400004: crystal_nexus_03
+    400006: crystal_nexus_04
+    400008: crystal_nexus_05
+    400010: crystal_nexus_06
+    400012: crystal_nexus_07
+    400014: crystal_nexus_08
+    400016: crystal_nexus_big
+    400018: //RootNode
+    2300000: crystal_nexus_01
+    2300002: crystal_nexus_02
+    2300004: crystal_nexus_03
+    2300006: crystal_nexus_04
+    2300008: crystal_nexus_05
+    2300010: crystal_nexus_06
+    2300012: crystal_nexus_07
+    2300014: crystal_nexus_08
+    2300016: crystal_nexus_big
+    2300018: //RootNode
+    3300000: crystal_nexus_01
+    3300002: crystal_nexus_02
+    3300004: crystal_nexus_03
+    3300006: crystal_nexus_04
+    3300008: crystal_nexus_05
+    3300010: crystal_nexus_06
+    3300012: crystal_nexus_07
+    3300014: crystal_nexus_08
+    3300016: crystal_nexus_big
+    3300018: //RootNode
+    4300000: nexus
+    4300002: crystal_nexus_01
+    4300004: crystal_nexus_08
+    4300006: crystal_nexus_07
+    4300008: crystal_nexus_06
+    4300010: crystal_nexus_02
+    4300012: crystal_nexus_03
+    4300014: crystal_nexus_04
+    4300016: crystal_nexus_05
+    4300018: crystal_nexus_big
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
